@@ -1,0 +1,26 @@
+{
+  "name": "strac",
+  "version": "1.0.0",
+  "description": "Strac Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoorvarajan/strac.git"
+  },
+  "author": "Apoorva Rajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apoorvarajan/strac/issues"
+  },
+  "homepage": "https://github.com/apoorvarajan/strac#readme",
+  "dependencies": {
+    "@azure/msal-node": "^2.9.2",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
